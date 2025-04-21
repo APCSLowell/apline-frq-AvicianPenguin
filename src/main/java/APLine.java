@@ -3,15 +3,15 @@ public class APLine
   private int a; 
   private int b; 
   private int c;
-  public APLine(int a, int b, int c)
+  public APLine(int a1, int b1, int c1)
   {
-    this.a = a;
-    this.b = b;
-    this.c = c;
+    a = a1;
+    b = b1;
+    c = c1;
   }
   public double getSlope()
   {
-    return ((double)(-a/b));
+    return -(double)a/b;
   }
   public boolean isOnLine(int x, int y)
   {
