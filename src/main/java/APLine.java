@@ -19,5 +19,4 @@ public class APLine
   {
     return(a*x + b*y + c == 0);
   }
-  
 }
