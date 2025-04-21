@@ -13,7 +13,7 @@ public class APLine
   }
   public double getSlope()
   {
-    return Slope;
+    return slope;
   }
   public boolean isOnLine(int x, int y)
   {
