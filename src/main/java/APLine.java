@@ -1,5 +1,23 @@
 public class APLine
 {
-  /* your code here */
+  private int a; 
+  private int b; 
+  private int c;
+  private double slope;
+  public APLine(int a, int b, int c)
+  {
+    this.a = a;
+    this.b = b;
+    this.c = c;
+    slope = (double)(-b/a);
+  }
+  public double getSlope()
+  {
+    return Slope;
+  }
+  public boolean isOnLine(int x, int y)
+  {
+    return(a*x + b*y + c == 0);
+  }
   
 }
